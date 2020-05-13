@@ -17,7 +17,11 @@
          <script src="jquery.js" />
         <script src="jquery-ui.js" />
         <script src="fancybox/js/jquery.fancybox.js" /> -->
-	<css src="upperrm.css" media="all and (min-width:1px)"/>
+	    <css src="upperrm.css" media="all and (min-width:1px)"/>
+        <css src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" src_type="url" />
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"  src_type="url" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" src_type="url" />
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"  src_type="url" />
 		<!--<css src="design_default.css" media="all and (min-width:1px)"/>-->
 
     </head>
