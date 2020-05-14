@@ -5,6 +5,12 @@ Keep in dev mode
 bin/magento deploy:mode:set developer
 bin/magento deploy:mode:set production
 
+Install
+
+php bin/magento setup:upgrade 
+php bin/magento setup:static-content:deploy
+
+
 Useful CMDs
 php bin/magento cache:flush && php bin/magento cache:clean && bin/magento indexer:reindex
 bin/magento setup:static-content:deploy
