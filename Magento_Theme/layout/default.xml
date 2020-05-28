@@ -20,9 +20,16 @@
                 <argument name="logo_img_height" xsi:type="number">43</argument>
             </arguments>
         </referenceBlock>
+
+        <referenceBlock name="footer_links" remove="true"/>
         <referenceContainer name="footer">
-            <block class="Magento\Store\Block\Switcher" name="store_switcher" as="store_switcher" after="footer_links" template="Magento_Store::switch/stores.phtml"/>
+            <block class="Magento\Cms\Block\Block" name="footer_block">
+                <arguments>
+                    <argument name="block_id" xsi:type="string">footer_block</argument>
+                </arguments>
+            </block>
         </referenceContainer>
+
         <referenceBlock name="report.bugs" remove="true"/>
         <move element="copyright" destination="before.body.end"/>
     </body>
