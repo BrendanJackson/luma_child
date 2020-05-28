@@ -28,6 +28,7 @@
                     <argument name="block_id" xsi:type="string">footer_block</argument>
                 </arguments>
             </block>
+            <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe" as="subscribe" before="-" template="subscribe.phtml"/>
         </referenceContainer>
 
         <referenceBlock name="report.bugs" remove="true"/>
